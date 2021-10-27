@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/boa.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: #f6c6d5;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 6rem;
+  font-family: "Dancing Script", cursive;
+  color: #e7efc5;
+  text-shadow: 2px 2px 0px #d41d2f;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#boa-gif {
+  width: 20%;
+  border-radius: 999999px;
+}
+
+#glass {
+  margin: 4rem;
+  position: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+}
