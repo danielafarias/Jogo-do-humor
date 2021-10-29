@@ -67,15 +67,35 @@ aside {
   justify-content: space-between;
 }
 
-button {
-  background-color: #d41d2f;
+small {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
+  margin
+}
+
+a {
+  color: #fff;
+  cursor: pointer;
+}
+
+#btn-change {
+  background-color: transparent;
+  border: 2px solid #d41d2f;
+  color: #d41d2f;
   font-weight: 900;
   font-size: 1rem;
-  border: none;
   padding: 1rem 2rem;
   border-radius: 10px;
   cursor: pointer;
+}
+
+#btn-change:hover {
+  background-color: #d41d2f;
+  color: #fff;
+  border: 2px solid #d41d2f;
 }
 
 #boa-gif {
