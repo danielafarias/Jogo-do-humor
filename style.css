@@ -17,6 +17,7 @@ body {
   background-position: center top;
   background-size: cover;
   background-color: #f6c6d5;
+  background: cover;
 }
 
 main {
@@ -122,4 +123,34 @@ a {
 
 #videos {
   margin-top: 4rem;
+}
+
+@media only screen and (max-width: 683px) {
+  #boa-photo {
+    width: 40%;
+    height: 40%;
+  }
+
+  #btn-change {
+    background: cover;
+  }
+
+  #glass {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   width: 100%;
+   padding: 1rem;
+   margin: 1rem 0;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  h4 {
+    text-align: center;
+  }
 }
